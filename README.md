@@ -23,6 +23,11 @@ parser = Darlingtonia::CsvParser.new(file: File.open('path/to/import.csv'))
 Darlingtonia::Importer.new(parser: parser).import
 ```
 
+### Custom Parsers
+#### Metadata Mappings
+### Validation
+### Error Handling
+
 Development
 -----------
 
